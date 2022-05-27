@@ -6,4 +6,3 @@ def save_video(video_url):
 
     urllib.request.urlretrieve(video_url, savename)
     print("저장완료")
-
